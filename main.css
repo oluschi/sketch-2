@@ -23,24 +23,33 @@ body {
     position: absolute;
     top: 40%;
     left: 0%;
-    width: 87.2%;
+    width: 93%;
     height: 20%;
     background-color: #D1CBB2;
     border: 50px solid transparent;
     transform: rotate(-5deg);
+}
     }
 
-.table2{
+.table2 {
     position: absolute;
-    top: 66%;
+    top: 66.2%;
     left: 0%;
-    width: 86.5%;
-    height: 11%;
+    width: 93.5%;
+    height: 20%;
     background-color: #D1CBB2;
     border: 50px solid transparent;
 
 }
+.table1{
+  position: absolute;
+  top:66.3%;
+  left:0%;
+  width:93.5%;
+  height:20%;
+  background=color: #D1CBB2;
 
+}
 .vase{
     height: 82%;
     width: 15%;
@@ -51,6 +60,7 @@ body {
     top: 0px;
     left: 50%;
     z-index: 3;
+
 }
 
 .stem{
