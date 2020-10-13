@@ -1,0 +1,138 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: #2E4053;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.table {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 87.2%;
+    height: 20%;
+    background-color: #D1CBB2;
+    border: 50px solid transparent;
+    transform: rotate(-5deg);
+    }
+
+.table2{
+    position: absolute;
+    top: 66%;
+    left: 0%;
+    width: 86.5%;
+    height: 11%;
+    background-color: #D1CBB2;
+    border: 50px solid transparent;
+
+}
+
+.vase{
+    height: 82%;
+    width: 15%;
+    background: linear-gradient(to right, #ADD8E6,#b9e8cc,#ADD8E6);
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 0px;
+    left: 50%;
+    z-index: 3;
+}
+
+.stem{
+    border-radius: 60% 50% 50% 100% / 80% 50% 70% 40%;
+    width: 40px;
+    height: 10%;
+    background-color: #c1982f;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    z-index: 1;
+}
+
+.candle1{
+    position: relative;
+    top: -63px;
+    width: 6%;
+    height: 20%;
+    background: linear-gradient(to left, #5a2d0c, #DAA520, #5a2d0c);
+    left: 42.5%;
+    top: 0%;
+    z-index: 3;
+
+}
+
+.candlestick1{
+    width: 1.7%;
+    height: 90%;
+    background: linear-gradient(to left, #5a2d0c, #DAA520, #5a2d0c);
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    z-index: 2;
+}
+.candlebottom{    
+    width: 30%;
+    height: 15%;
+    border-radius: 100px / 50px;
+    background: linear-gradient(to bottom, #5a2d0c, #DAA520, #5a2d0c);
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    z-index: 1;
+}
+.pumpkin2{
+    display: block;
+    width: 32%;
+    height: 50%;
+    background: linear-gradient(to bottom left, #DC7633, #6E2C00);
+    position: absolute;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    left: 0%;
+    top: 45%;
+    box-shadow: -5vw 11vw 70px -10px #0000009c;
+    z-index: 3;
+}
+
+.pumpkin{ 
+    display: block;
+    width: 32%;
+    height: 50%;
+    background: linear-gradient(to bottom left, #ece88673, #6e2c0075);
+    position: absolute;
+    border-radius: 60% 50% 50% 50% / 60% 60% 20% 40%;
+    left: 65.5%;
+    top: 50%;
+    box-shadow: -9vw 11vw 70px -60px #0000009c;
+    z-index: 3;
+  }
+.pumpkin3{    
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 28%;
+    border-radius: 60% 50% 50% 100% / 80% 50% 70% 40%;
+    background: linear-gradient(to left, #FAD7A0, #e28f27);
+    left: 30%;
+    top: 55%;
+    z-index: 1;
+    box-shadow: -6vw 6vw 30px -30px #0000009c;
+  }
+
+  
+
+/* Your CSS goes here */
